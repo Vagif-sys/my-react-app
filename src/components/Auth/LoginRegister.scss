@@ -1,0 +1,78 @@
+.loginregister{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  span{
+font-size: 55px;
+line-height: 147%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+margin:100px 0px;
+font-weight: bold;
+  }
+  .buttons{
+    margin:auto;
+    outline: none;
+    border:none;
+    width: 396px;
+    height: 65px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size:25px;
+    letter-spacing: 1%;
+    color:#fff;
+   
+    }
+  
+  .loginbutton{
+  background: #3AAC59;
+  margin-bottom: 50px;
+  &:hover{
+    background: #2C9A4A;
+ } 
+  
+  }
+  .signupbutton{
+    background:#0E344B;
+    border:1px solid #3AAC59;
+    margin-bottom:100px;
+    &:hover{
+      border: 1px solid #fff;
+      
+   }
+    }
+}
+
+
+
+@media only screen and (min-width: 1400px) {
+  .loginregister{
+  span{
+   margin-top:170px;
+
+  }
+  .signupbutton{
+    margin-bottom:170px;
+  }
+
+  }
+
+}
+
+@media only screen and(max-width: 550px){
+  .loginregister{
+    .buttons{
+     
+      width: 300px;
+      height: 65px;
+      
+     
+      }
+
+  }
+
+}

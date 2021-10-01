@@ -1,0 +1,94 @@
+.content1{
+height: 600px;
+background-image: url("https://img.wallpapersafari.com/desktop/1366/768/77/82/mcVzTL.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Noto Sans', sans-serif;
+.tc{
+  //border:1px solid red;
+  padding-left: 130px;
+  
+}
+
+.title{
+  width: 839px;
+  height: 170px;
+  font-size: 40px;
+  line-height: 58.8px;
+  letter-spacing: 1%;
+  padding-top: 126px;
+  margin-bottom: 53px;
+  font-weight:700;
+}
+button{
+width: 230px;
+height: 65px;
+font-size: 25px;
+letter-spacing: 1%;
+background:#3AAC59;
+border: none;
+margin-top: 103px;
+color:white;
+border-radius:6px;
+font-weight:700;
+//border:1px solid red;
+&:hover{
+  background: #2C9A4A;
+  color:white;
+}
+}
+
+
+}
+@media only screen and (max-width: 980px) {
+  .content1{
+    .title{
+      width: 500px;
+      font-size: 30px;
+    }
+    button{
+      width: 200px;
+      height: 60px;
+      font-size: 23px;
+
+    }
+  }
+}
+
+@media only screen and (max-width: 747px) {
+  .content1{
+    .tc{
+      padding-left: 50px; 
+    }
+    .title{
+      width: 450px;
+      font-size: 25px;
+    }
+    button{
+      width: 180px;
+      height: 55px;
+      font-size: 21px;
+
+    }
+  }
+}
+
+
+@media only screen and (max-width: 514px) {
+  .content1{
+    .tc{
+      padding-left: 25px; 
+    }
+    .title{
+      width: 330px;
+      font-size: 20px;
+      line-height: 38.8px;
+    }
+    button{
+      width: 170px;
+      height: 52px;
+      font-size: 19px;
+
+    }
+  }
+}

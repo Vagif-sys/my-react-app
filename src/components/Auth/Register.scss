@@ -1,0 +1,214 @@
+.signup{
+color:#fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 100px;
+
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+// border:1px solid red;
+}
+.steps{
+margin-top: 100px;
+margin-bottom: 25px;
+width: 930px;
+text-align:left;
+height: 29px;
+font-size: 30px;
+line-height: 33px;
+// border:1px solid red;
+}
+
+  .around{
+    margin-top:40px;
+  }
+  a{
+    color: white;
+    &:hover{
+      color: white;
+    }
+  }
+ 
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    height: 17px;
+    width: 430px;
+    font-style: Regular;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+    //color: #FFFFFF;
+   color: rgba(255, 255, 255, 0.8);
+  //  border:1px solid red;
+    
+    }
+  .form-control{
+  height: 55px;
+  width: 430px;
+  color: rgb(214, 203, 203);
+  font-size: 20px;
+  font-weight: 400; 
+  background:#0E344B;
+  // border:1px solid red;
+  }
+  .inputs{
+    width:930px;
+    margin:0px 210px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    // border:1px solid red;
+  }
+
+  #button1{
+    margin: 49px  auto 0px auto;
+    width: 200px;
+    height: 56px;
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    background: #3AAC59;
+    border-radius: 6px;
+    border:none; 
+      &:hover{
+        background: #2C9A4A;
+      }  
+  }
+  #button0{
+    width: 200px;
+    height: 56px;
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    background:#0E344B;
+    border-radius: 6px;
+    margin-right:30px;
+    border:1px solid #3AAC59;
+    &:hover{
+      border: 1px solid #fff;
+   }
+  }
+  .step2{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .already{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 30px;
+    &:hover{
+    cursor: pointer;
+    }
+  }
+}
+
+@media only screen and(max-width:1360px){
+  .signup{
+
+    .inputs{
+      margin:0px 100px;
+    }
+  }
+}
+
+@media only screen and(max-width:1130px){
+  .signup{
+     .steps{
+      width: 700px;
+      }
+    .form-label {
+      width: 330px;  
+      }
+    .form-control{
+    width: 330px;
+    }
+    .inputs{
+      width:700px;
+      margin:0px 10px;
+    }
+  }
+}
+@media only screen and(max-width:740px){
+  .signup{
+    .steps{
+      width: 500px;
+      }
+    .form-label {
+      width: 220px;  
+      }
+    .form-control{
+    width: 220px;
+    }
+    .inputs{
+      width:500px;
+      margin:0px 10px;
+    }
+  }
+}
+
+@media only screen and(max-width:550px){
+  .signup{
+
+    .steps{
+      margin-top: 100px;
+      margin-bottom: 25px;
+      width: 340px;
+      text-align:left;
+      height: 29px;
+      font-size: 30px;
+      line-height: 33px;
+      }
+
+    .form-label {
+      margin-bottom: 10px;
+      height: 17px;
+      width: 330px;
+      font-size: 18px;
+      line-height: 21px;     
+      }
+    .form-control{
+    height: 55px;
+    width: 330px;
+    font-size: 20px;
+    }
+    .inputs{
+      width:340px;
+      margin:0px 10px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: space-between;
+      // flex-wrap: wrap;
+      //border:1px solid red;
+    }
+    .buttons01{
+      text-align: center;
+      margin-top: 30px;
+    }
+    #button0{
+      width: 200px;
+      height: 56px;
+      font-size: 25px;      
+      margin-right:0px;
+    }
+    #button1{
+      margin: 49px  auto 0px auto;
+      text-emphasis: center;
+      width: 200px;
+      height: 56px;
+      font-size: 25px;
+    }
+   
+    
+
+
+
+  }
+
+}

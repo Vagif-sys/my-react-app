@@ -1,0 +1,36 @@
+.blog2{
+  background: #fff;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 80px 150px 80px 320px;
+ 
+  .page-main-title {
+    font-weight: 900;
+    font-size: 50px;
+    color: #0c282a;
+    letter-spacing:2px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.blog-page .post .content .headline {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0C282A;
+  transition: ease 0.5s color;
+  letter-spacing: 2px;
+  font-family: 'Noto Sans', sans-serif;
+ 
+}
+.blog-page .post .content .preview {
+  margin-top: 1rem;
+  font-size:20px;
+  color: #0C282A;
+}
+.blog-page .post .year {
+  font-size: 40px;
+  font-weight: bold;
+  flex: 0 0 150px;
+  padding: 2rem 0;
+  color: #0C282A;
+}
+}
