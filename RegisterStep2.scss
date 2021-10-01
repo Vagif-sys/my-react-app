@@ -1,0 +1,284 @@
+.registerstep2{
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:110px;
+  z-index:13;
+  a{
+    color:white;
+  }
+  
+  form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+  .step1{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .steps{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    width: 930px;
+    text-align:left;
+    height: 29px;
+    font-size: 30px;
+    line-height: 33px;
+    }
+    .buttonfinish{
+    width: 230px;
+    height: 65px;
+    background: #3AAC59;
+    border-radius: 6px;
+    margin-top: 73px;
+    border:none;
+    font-size:25px;
+    letter-spacing: 1%;
+    text-align:center; 
+    &:hover{
+      background: #2C9A4A;
+    }
+    }
+ .buttonback{
+    width: 230px;
+    height: 65px;
+    font-size: 25px;
+    letter-spacing: 0.01em;
+    background:#0E344B;
+    border-radius: 6px;
+    margin-right:30px;
+    border:1px solid #3AAC59;
+    &:hover{
+      color:#fff;
+      border: 1px solid #fff;
+   }  
+  }
+.around{
+  margin-top:40px;
+  margin-left: 150px;
+  width: 1070px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  height: 17px;
+  width: 430px;
+  font-style: Regular;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 21px;
+   color: rgba(255, 255, 255, 0.8);
+  }
+
+.form-control{
+height: 55px;
+width: 678px;
+color: rgb(214, 203, 203);
+font-size: 20px;
+font-weight: 400; 
+background:#0E344B;
+}
+
+.howtoget{
+width: 923px;
+font-size: 18px;
+line-height: 17px;
+text-align: left;
+height: 41px;
+margin-top: 18px;
+}
+.hover{
+  position: relative;
+  margin-top:2px;
+  margin-left:25px; 
+  img{
+    width:30px;
+    height: 30px;
+  }
+  .tooltip1{
+    // border: 1px solid yellow;
+    padding: 0px 50px;
+    color:black;
+    position: fixed;
+    bottom: 0px;
+    right:90px;
+    display: none;
+    width:568px;
+    height:575px;
+    background:#fff;
+    z-index:11;
+  
+    .header{
+     width:453px;
+     height:20px;  
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 22px;
+      margin: 15px 0px 15px -37px;
+    }
+  }
+  &:hover{
+
+    .tooltip1{
+       display: block;
+    }
+  }
+}  
+}
+
+@media only screen and(max-width:1326px){
+
+  .hover{
+    .tooltip1{
+      
+      padding: 0px 20px;
+      bottom: 0px;
+      right:0px;
+      top: 0px;
+      width:568px;
+      height:575px;
+       
+      .header{
+        width:453px;
+        height:20px;
+       font-size: 20px;
+       line-height: 22px;
+        margin: 15px 0px 15px 0px;
+      }
+    }
+    
+  }
+}
+
+@media only screen and(max-width:1220px){
+  .registerstep2{
+    .steps{
+      width: 700px;
+      }
+    .around{
+      margin-left: 0px;
+      width: 700px;
+    }
+    .form-control{
+    width: 678px;
+    }
+    .howtoget{
+    width: 700px;
+    }
+  } 
+}
+@media only screen and(max-width:800px){
+  .registerstep2{
+    .steps{
+      width: 450px;
+      }
+    .around{
+      margin-left: 0px;
+      width: 450px;
+    }
+    .form-control{
+      width: 450px;
+      }
+    .howtoget{
+    width: 450px;
+    }
+    .hover{
+      position: relative;
+      margin-top:2px;
+      margin-left:25px; 
+      .tooltip1{
+        padding: 0px 20px;
+        bottom: 0px;
+        right:0px;
+        top: 0px;
+        width:470px;
+        height:600px;  
+        .header{
+         width:470px;
+         height:20px;
+         font-size: 18px;
+         line-height: 22px;
+          margin: 15px 0px 15px 0px;
+        }
+        span{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and(max-width:550px){
+  .registerstep2{
+    .steps{
+      width: 330px;
+      }
+    .around{
+      margin-left: 0px;
+      width: 330px;
+    }
+    .form-control{
+      width: 330px;
+      }
+    .howtoget{
+    width: 330px;
+    }
+
+    .buttonsStep2{
+
+      display: flex;
+      flex-direction: column;
+      .buttonback{
+        width: 180px;
+        height: 50px;
+        font-size: 21px;
+        margin-right:0px;
+        margin-top: 40px;
+      }
+      .buttonfinish{
+        width: 180px;
+        height: 50px;
+        font-size:21px;
+        letter-spacing: 1%;
+        margin-top: 20px;
+      }
+    }
+    .hover{
+      margin-top:2px;
+      margin-left:25px; 
+      .tooltip1{
+        padding: 0px 20px;
+        bottom: 0px;
+        right:0px;
+        top: 0px;
+        width:315px;
+        height:700px;  
+        .header{
+         width:315px;
+         height:20px;
+         font-size: 17px;
+         line-height: 22px;
+          margin: 15px 0px 15px 0px;
+        }
+        span{
+          font-size: 14px
+        }
+      } 
+    } 
+  }
+}
+@media only screen and(max-height:750px){
+  .registerstep2{
+    .hover{
+      .tooltip1{
+        height: 80%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      } 
+    }
+  }
+}
